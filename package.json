@@ -1,0 +1,23 @@
+{
+  "name": "katring-restaurant",
+  "version": "1.0.0",
+  "description": "Website katring frontend and backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayakayp/katring-restaurant.git"
+  },
+  "author": "Nayaka Yoga Pradipta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nayakayp/katring-restaurant/issues"
+  },
+  "homepage": "https://github.com/nayakayp/katring-restaurant#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
