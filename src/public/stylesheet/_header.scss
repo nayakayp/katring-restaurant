@@ -1,14 +1,24 @@
+@import "./variables";
 nav {
-  background: green;
+  @include widthOptimized();
   min-height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 3rem;
+  #logo {
+    img {
+      width: 60%;
+    }
+  }
   ul {
     display: flex;
     align-items: center;
     li {
-      margin-left: 1rem;
+      margin-left: 3rem;
     }
   }
+}
+.container {
+  background: $color-primary;
 }

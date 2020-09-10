@@ -1,0 +1,10 @@
+$color-primary: #201416;
+$color-secondary: #f3ebde;
+$color-special: #dd2b37;
+$font-primary: "Lato", sans-serif;
+$font-secondary: "Mulish", sans-serif;
+
+@mixin widthOptimized {
+  width: 90%;
+  margin: 0 auto;
+}
