@@ -1,3 +1,9 @@
-nav {
-  background: blue;
+@import "./variables";
+
+.menu-filters {
+  h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: $color-special;
+  }
 }

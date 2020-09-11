@@ -1,4 +1,5 @@
 @import "./variables";
+
 .home-hero {
   background: $color-primary;
   .container {
@@ -51,17 +52,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  h3 {
-    color: white;
-    font-family: $font-secondary;
-    font-size: 3rem;
-    text-align: center;
-    padding-bottom: 1rem;
-    border-style: none none solid none;
-    border-color: #dd2b37;
-    width: 25%;
-    margin: 0 auto 2rem auto;
-  }
+
   .card-container {
     display: flex;
     justify-content: center;
@@ -107,11 +98,101 @@
   }
 }
 
-.pitching {
+.home-pitching {
   background: $color-special;
-  padding: 5rem 0;
+  padding: 15rem 0;
   .container {
-    @include widthOptimized();
     background: $color-special;
+    display: flex;
+    flex-direction: column;
+    h2 {
+      font-family: $font-secondary;
+      font-size: 4.8rem;
+      font-weight: 900;
+      color: white;
+      text-align: center;
+      padding: 0 10rem;
+      span {
+        color: #ffa7a7;
+      }
+    }
+    .values-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-top: 5rem;
+      .value {
+        width: 250px;
+        margin: 0 3rem;
+        img {
+          margin-bottom: 2rem;
+        }
+        .title {
+          font-size: 2.4rem;
+          font-weight: 700;
+          color: white;
+        }
+        .subtitle {
+          font-size: 1.4rem;
+          color: white;
+        }
+      }
+    }
+  }
+}
+.home-kategori {
+  background: $color-primary;
+  padding: 10rem 0;
+  .kategori-container {
+    @include widthOptimized();
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .kategori {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        color: white;
+        font-size: 2.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+    .jatim {
+      background: linear-gradient(
+          to bottom,
+          rgba(129, 129, 105, 0.5) rgba(0, 0, 0, 0.5)
+        ),
+        url("/images/surabaya-img-min.png");
+    }
+    .sumbar {
+      background: linear-gradient(
+          to bottom,
+          rgba(129, 129, 105, 0.5) rgba(0, 0, 0, 0.5)
+        ),
+        url("/images/sumbar-img-min.png");
+    }
+    .aceh {
+      background: linear-gradient(
+          to bottom,
+          rgba(129, 129, 105, 0.5) rgba(0, 0, 0, 0.5)
+        ),
+        url("/images/aceh-img-min.png");
+    }
+    .kaltaru {
+      background: linear-gradient(
+          to bottom,
+          rgba(129, 129, 105, 0.5) rgba(0, 0, 0, 0.5)
+        ),
+        url("/images/kalimantan-utara-img-min.png");
+    }
   }
 }

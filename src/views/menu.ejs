@@ -1,8 +1,31 @@
-<!-- Body -->
-<%- contentFor('body') %>
-<section class="menu-hero">
-  <img src="" alt="" />
-  <div class="menu-content">
-    <p>Hello this is menu page</p>
+<%- include("partials/header-secondary.ejs") %>
+<div class="menu-filters">
+  <h1>Semua Produk</h1>
+  <form action="/menu" method="post">
+    <label for="kategori"
+      >Kategori:
+      <select name="kategori" id="kategori">
+        <option value="all-kategori">All products</option>
+        <option value="jatim">Jawa Timur</option>
+        <option value="sumbar">Sumatera Barat</option>
+        <option value="aceh">Aceh</option>
+        <option value="kaltaru">Kalimantan Timur</option>
+      </select>
+    </label>
+    <label for="sort"
+      >Sort by:
+      <select name="sort" id="sort">
+        <option value="low-high">Price, low to high</option>
+        <option value="high-low">Price, high to low</option>
+      </select>
+    </label>
+  </form>
+  <div class="product-count">12 Products</div>
+</div>
+
+<div class="menu-products">
+  <section class="menu-hero">
+    <div class="menu-container"></div>
   </div>
 </section>
+<%- include("partials/footer-secondary.ejs") %>

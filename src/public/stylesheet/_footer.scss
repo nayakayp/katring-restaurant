@@ -1,0 +1,34 @@
+@import "./variables";
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0;
+  .footer-nav {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-width: 1.5px;
+    border-style: none none solid none;
+    a {
+      color: #201416;
+    }
+    li {
+      margin: 0 2rem;
+    }
+    .logo-footer {
+      font-size: 3.6rem;
+      font-weight: 900;
+      font-family: "Poppins", sans-serif;
+    }
+  }
+  .copyright,
+  .terms {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+}

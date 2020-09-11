@@ -8,3 +8,14 @@ $font-secondary: "Mulish", sans-serif;
   width: 90%;
   margin: 0 auto;
 }
+h3 {
+  color: white;
+  font-family: $font-secondary;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-style: none none solid none;
+  border-color: #dd2b37;
+  width: 25%;
+  margin: 0 auto 2rem auto;
+}
