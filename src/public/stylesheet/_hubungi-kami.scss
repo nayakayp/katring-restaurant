@@ -1,0 +1,28 @@
+@import "./variables";
+
+.form-wrapper {
+  background: $color-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  min-height: 90vh;
+  p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0 36rem;
+    text-align: center;
+  }
+  form {
+    width: 60rem;
+    margin-top: 3rem;
+    .btn {
+      border-radius: 5px;
+      text-transform: uppercase;
+      background: $color-special;
+      padding: 1rem 5rem;
+    }
+  }
+}

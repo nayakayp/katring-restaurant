@@ -1,0 +1,125 @@
+<%- include("partials/header-primary.ejs") %>
+
+<section class="cart-wrapper">
+  <div class="keranjang-container">
+    <div class="rincian-pesanan">
+      <h1>Rincian Pesanan</h1>
+      <div class="product-wrapper">
+        <div class="product-info">
+          <img src="/images/nasi-tutung-img-min.jpg" alt="nasi tutung" />
+          <div class="info-detail">
+            <p class="product-name">Nasi Tutung</p>
+            <p class="product-price">Rp 25.000</p>
+          </div>
+        </div>
+        <div class="product-quantity">
+          <button type="button" class="add-quantity">
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-dash"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"
+              />
+            </svg>
+          </button>
+          <input type="text" placeholder="0" />
+          <button type="button" class="reduce-quantity">
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-plus"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="product-total-price">
+        <p>TOTAL</p>
+        <p class="price">Rp 200.000</p>
+      </div>
+    </div>
+    <div class="data-pesanan">
+      <h1>Data Pesanan</h1>
+      <form action="/keranjang" method="POST">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="tanggal">Tanggal Acara</label>
+            <input
+              type="date"
+              class="form-control form-control-lg"
+              id="tanggal"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="waktu">Waktu Acara</label>
+            <select
+              name="waktu"
+              id="waktu"
+              class="form-control form-control-lg"
+            >
+              <option value="8 AM">08.00 WIB</option>
+              <option value="9 AM">09.00 WIB</option>
+              <option value="10 AM">10.00 WIB</option>
+              <option value="11 AM">11.00 WIB</option>
+              <option value="12 PM">12.00 WIB</option>
+              <option value="13 PM">13.00 WIB</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" class="form-control form-control-lg" id="nama" />
+        </div>
+        <div class="form-group">
+          <label for="email">Alamat Email</label>
+          <input type="email" class="form-control form-control-lg" id="email" />
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="perusahaan">Nama Perusahaan</label>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="perusahaan"
+            />
+          </div>
+          <div class="form-group col-md-4">
+            <label for="alamat">Alamat Tujuan</label>
+            <input
+              type="text"
+              id="alamat"
+              class="form-control form-control-lg"
+            />
+          </div>
+          <div class="form-group col-md-2">
+            <label for="kode-pos">Kode Pos</label>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="kode-pos"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="telp">Nomor Telpon</label>
+          <input type="text" class="form-control form-control-lg" id="nama" />
+        </div>
+        <button type="submit" class="btn">Proses Order</button>
+      </form>
+    </div>
+  </div>
+</section>
+<%-include("partials/footer-primary.ejs") %>

@@ -1,0 +1,49 @@
+@import "./variables";
+
+.produk-detail {
+  background: $color-secondary;
+  .produk-container {
+    min-height: 90vh;
+    @include widthOptimized();
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .img-placeholder {
+      flex: 1 1 40rem;
+    }
+    .produk-content {
+      flex: 1 1 40rem;
+      h4 {
+        font-family: $font-secondary;
+        font-size: 3.8rem;
+        color: $color-primary;
+        font-weight: 700;
+      }
+      .harga-produk {
+        font-size: 2.6rem;
+        color: $color-special;
+        font-weight: 500;
+      }
+      .deskripsi {
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin: 2rem 0;
+      }
+      .btn {
+        margin-top: 2rem;
+        background: $color-special;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+.produk-lain {
+  .card {
+    background: $color-special !important;
+    p {
+      color: white !important;
+    }
+  }
+}

@@ -1,13 +1,8 @@
-h3 {
-  color: white;
-  font-family: "Mulish", sans-serif;
+h2 {
+  font-family: "Lato", sans-serif;
   font-size: 3rem;
-  text-align: center;
-  padding-bottom: 1rem;
-  border-style: none none solid none;
-  border-color: #dd2b37;
-  width: 25%;
-  margin: 0 auto 2rem auto;
+  color: white;
+  font-weight: 700;
 }
 
 h3 {
@@ -20,11 +15,100 @@ h3 {
   border-color: #dd2b37;
   width: 25%;
   margin: 0 auto 2rem auto;
+}
+
+.product-quantity {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  border: 1px solid #bbaaad;
+  padding: 0 1rem;
+}
+
+.product-quantity button,
+.product-quantity input {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.product-quantity button {
+  margin: 0 auto;
+}
+
+.product-quantity input {
+  width: 64px;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
+h3 {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-style: none none solid none;
+  border-color: #dd2b37;
+  width: 25%;
+  margin: 0 auto 2rem auto;
+}
+
+.product-quantity {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  border: 1px solid #bbaaad;
+  padding: 0 1rem;
+}
+
+.product-quantity button,
+.product-quantity input {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.product-quantity button {
+  margin: 0 auto;
+}
+
+.product-quantity input {
+  width: 64px;
+  padding: 1rem 0;
 }
 
 nav {
   min-height: 10vh;
-  padding-top: 3rem;
+  padding: 3rem 0;
 }
 
 nav #logo img {
@@ -58,6 +142,13 @@ nav ul li {
           align-items: center;
 }
 
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
 h3 {
   color: white;
   font-family: "Mulish", sans-serif;
@@ -68,6 +159,41 @@ h3 {
   border-color: #dd2b37;
   width: 25%;
   margin: 0 auto 2rem auto;
+}
+
+.product-quantity {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  border: 1px solid #bbaaad;
+  padding: 0 1rem;
+}
+
+.product-quantity button,
+.product-quantity input {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.product-quantity button {
+  margin: 0 auto;
+}
+
+.product-quantity input {
+  width: 64px;
+  padding: 1rem 0;
 }
 
 footer {
@@ -122,6 +248,13 @@ footer .terms {
   font-weight: 300;
 }
 
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
 h3 {
   color: white;
   font-family: "Mulish", sans-serif;
@@ -132,6 +265,41 @@ h3 {
   border-color: #dd2b37;
   width: 25%;
   margin: 0 auto 2rem auto;
+}
+
+.product-quantity {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  border: 1px solid #bbaaad;
+  padding: 0 1rem;
+}
+
+.product-quantity button,
+.product-quantity input {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.product-quantity button {
+  margin: 0 auto;
+}
+
+.product-quantity input {
+  width: 64px;
+  padding: 1rem 0;
 }
 
 .home-hero {
@@ -194,7 +362,6 @@ h3 {
 
 .home-hero .container .hero-content .btn {
   background: #dd2b37;
-  margin-top: 10rem;
 }
 
 .home-populer {
@@ -236,7 +403,7 @@ h3 {
 }
 
 .home-populer .card-container .card img {
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
 }
 
 .home-populer .card-container .card .card-content {
@@ -292,7 +459,6 @@ h3 {
   font-weight: 900;
   color: white;
   text-align: center;
-  padding: 0 10rem;
 }
 
 .home-pitching .container h2 span {
@@ -315,7 +481,7 @@ h3 {
 }
 
 .home-pitching .container .values-container .value {
-  width: 250px;
+  width: 200px;
   margin: 0 3rem;
 }
 
@@ -399,6 +565,13 @@ h3 {
   background: linear-gradient(to bottom, rgba(129, 129, 105, 0.5) rgba(0, 0, 0, 0.5)), url("/images/kalimantan-utara-img-min.png");
 }
 
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
 h3 {
   color: white;
   font-family: "Mulish", sans-serif;
@@ -411,10 +584,698 @@ h3 {
   margin: 0 auto 2rem auto;
 }
 
+.product-quantity {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  border: 1px solid #bbaaad;
+  padding: 0 1rem;
+}
+
+.product-quantity button,
+.product-quantity input {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.product-quantity button {
+  margin: 0 auto;
+}
+
+.product-quantity input {
+  width: 64px;
+  padding: 1rem 0;
+}
+
+.menu-filters {
+  background: #f3ebde;
+}
+
 .menu-filters h1 {
   font-size: 4rem;
   font-weight: 800;
   color: #dd2b37;
+  text-align: center;
+}
+
+.menu-filters form {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  border-style: solid none;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.5);
+  padding: 1.5rem 0;
+}
+
+.menu-filters form label {
+  margin: 0 2rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.menu-filters form .select-css {
+  background-color: #f3ebde;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url("/images/chevron-down-solid.svg");
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: right;
+  border: none;
+  font-family: "Lato", sans-serif;
+  width: 120px;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  font-size: 1.6rem;
+}
+
+.menu-filters form .product-count {
+  font-size: 1.6rem;
+  font-style: italic;
+  margin: 0 0;
+}
+
+.menu-hero {
+  background: #f3ebde;
+}
+
+.menu-hero .menu-container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu-hero .menu-container .menu-card {
+  background: white;
+  width: 350px;
+  margin: 3rem 0;
+  border-radius: 5px;
+  padding-bottom: 1rem;
+}
+
+.menu-hero .menu-container .menu-card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.menu-hero .menu-container .menu-card .menu-content {
+  padding: 2rem;
+}
+
+.menu-hero .menu-container .menu-card .menu-content .menu-title {
+  font-size: 2.4rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  text-transform: unset;
+  color: #201416;
+}
+
+.menu-hero .menu-container .menu-card .menu-content .start-from {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.menu-hero .menu-container .menu-card .menu-content .price {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #dd2b37;
+  margin-bottom: 3rem;
+}
+
+.menu-hero .menu-container .menu-card .menu-content .btn {
+  background: #dd2b37;
+  border-radius: 3px;
+  width: 100%;
+  text-transform: none;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
+h3 {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-style: none none solid none;
+  border-color: #dd2b37;
+  width: 25%;
+  margin: 0 auto 2rem auto;
+}
+
+.product-quantity {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  border: 1px solid #bbaaad;
+  padding: 0 1rem;
+}
+
+.product-quantity button,
+.product-quantity input {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.product-quantity button {
+  margin: 0 auto;
+}
+
+.product-quantity input {
+  width: 64px;
+  padding: 1rem 0;
+}
+
+.profil-visi-misi {
+  background: #dd2b37;
+  padding: 8rem 0 15rem 0;
+}
+
+.profil-visi-misi .visi-misi-container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.profil-visi-misi .visi-misi-container .image-placeholder {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  position: relative;
+  z-index: 1;
+}
+
+.profil-visi-misi .visi-misi-container .image-placeholder .image-vector {
+  position: absolute;
+  z-index: -1;
+  top: -30px;
+  left: 30px;
+  width: 40rem;
+  height: 30rem;
+  baackground: none;
+  border: 10px solid white;
+}
+
+.profil-visi-misi .visi-misi-container .visi-misi-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.profil-visi-misi .visi-misi-container .visi-misi-content p {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.profil-chef {
+  position: relative;
+}
+
+.profil-chef .chef-container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  top: -80px;
+}
+
+.profil-chef .chef-container .chef .name,
+.profil-chef .chef-container .chef .title {
+  color: #201416;
+  text-align: center;
+}
+
+.profil-chef .chef-container .chef .name {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.profil-chef .chef-container .chef .title {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
+h3 {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-style: none none solid none;
+  border-color: #dd2b37;
+  width: 25%;
+  margin: 0 auto 2rem auto;
+}
+
+.product-quantity {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  border: 1px solid #bbaaad;
+  padding: 0 1rem;
+}
+
+.product-quantity button,
+.product-quantity input {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.product-quantity button {
+  margin: 0 auto;
+}
+
+.product-quantity input {
+  width: 64px;
+  padding: 1rem 0;
+}
+
+.form-wrapper {
+  background: #201416;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0;
+  min-height: 90vh;
+}
+
+.form-wrapper p {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0 36rem;
+  text-align: center;
+}
+
+.form-wrapper form {
+  width: 60rem;
+  margin-top: 3rem;
+}
+
+.form-wrapper form .btn {
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: #dd2b37;
+  padding: 1rem 5rem;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
+h3 {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-style: none none solid none;
+  border-color: #dd2b37;
+  width: 25%;
+  margin: 0 auto 2rem auto;
+}
+
+.product-quantity {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  border: 1px solid #bbaaad;
+  padding: 0 1rem;
+}
+
+.product-quantity button,
+.product-quantity input {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.product-quantity button {
+  margin: 0 auto;
+}
+
+.product-quantity input {
+  width: 64px;
+  padding: 1rem 0;
+}
+
+.cart-wrapper {
+  background: #dd2b37;
+  min-height: 90vh;
+}
+
+.cart-wrapper .keranjang-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cart-wrapper .keranjang-container .rincian-pesanan {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.cart-wrapper .keranjang-container .rincian-pesanan h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 4.6rem;
+  color: white;
+  font-weight: 600;
+}
+
+.cart-wrapper .keranjang-container .rincian-pesanan .product-wrapper {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.cart-wrapper .keranjang-container .rincian-pesanan .product-wrapper .product-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+}
+
+.cart-wrapper .keranjang-container .rincian-pesanan .product-wrapper .product-info img {
+  width: 20%;
+  margin-right: 1rem;
+}
+
+.cart-wrapper .keranjang-container .rincian-pesanan .product-wrapper .product-info .product-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #201416;
+}
+
+.cart-wrapper .keranjang-container .rincian-pesanan .product-wrapper .product-info .product-price {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #201416;
+}
+
+.cart-wrapper .keranjang-container .rincian-pesanan .product-wrapper .product-total-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-wrapper .keranjang-container .rincian-pesanan .product-total-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.cart-wrapper .keranjang-container .rincian-pesanan .product-total-price p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.cart-wrapper .keranjang-container .data-pesanan {
+  margin-left: 5rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.cart-wrapper .keranjang-container .data-pesanan h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 4.6rem;
+  color: white;
+  font-weight: 600;
+}
+
+.cart-wrapper .keranjang-container .data-pesanan label {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.cart-wrapper .keranjang-container .data-pesanan .btn {
+  background: #201416;
+  border-radius: 5px;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
+h3 {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-style: none none solid none;
+  border-color: #dd2b37;
+  width: 25%;
+  margin: 0 auto 2rem auto;
+}
+
+.product-quantity {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  border: 1px solid #bbaaad;
+  padding: 0 1rem;
+}
+
+.product-quantity button,
+.product-quantity input {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.product-quantity button {
+  margin: 0 auto;
+}
+
+.product-quantity input {
+  width: 64px;
+  padding: 1rem 0;
+}
+
+.produk-detail {
+  background: #f3ebde;
+}
+
+.produk-detail .produk-container {
+  min-height: 90vh;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.produk-detail .produk-container .img-placeholder {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.produk-detail .produk-container .produk-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.produk-detail .produk-container .produk-content h4 {
+  font-family: "Mulish", sans-serif;
+  font-size: 3.8rem;
+  color: #201416;
+  font-weight: 700;
+}
+
+.produk-detail .produk-container .produk-content .harga-produk {
+  font-size: 2.6rem;
+  color: #dd2b37;
+  font-weight: 500;
+}
+
+.produk-detail .produk-container .produk-content .deskripsi {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+
+.produk-detail .produk-container .produk-content .btn {
+  margin-top: 2rem;
+  background: #dd2b37;
+  border-radius: 5px;
+}
+
+.produk-lain .card {
+  background: #dd2b37 !important;
+}
+
+.produk-lain .card p {
+  color: white !important;
 }
 
 * {
@@ -425,7 +1286,7 @@ h3 {
 }
 
 body {
-  font-family: "Mulish", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html {
@@ -440,6 +1301,11 @@ a {
   cursor: pointer;
 }
 
+a:hover {
+  color: #dd2b37;
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
@@ -448,5 +1314,7 @@ li {
   border-radius: 50px;
   border: none;
   padding: 1rem 3rem;
+  color: white;
+  font-size: 1.8rem;
 }
 /*# sourceMappingURL=style.css.map */

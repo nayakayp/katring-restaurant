@@ -1,0 +1,65 @@
+@import "./variables";
+
+.profil-visi-misi {
+  background: $color-special;
+  padding: 8rem 0 15rem 0;
+  .visi-misi-container {
+    @include widthOptimized();
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .image-placeholder {
+      flex: 1 1 10rem;
+      position: relative;
+      z-index: 1;
+      img {
+      }
+      .image-vector {
+        position: absolute;
+        z-index: -1;
+        top: -30px;
+        left: 30px;
+        width: 40rem;
+        height: 30rem;
+        baackground: none;
+        border: 10px solid white;
+      }
+    }
+    .visi-misi-content {
+      flex: 1 1 40rem;
+      p {
+        font-family: $font-primary;
+        font-size: 2rem;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.profil-chef {
+  position: relative;
+  .chef-container {
+    @include widthOptimized();
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    top: -80px;
+    .chef {
+      .name,
+      .title {
+        color: #201416;
+        text-align: center;
+      }
+      .name {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      .title {
+        font-size: 1.6rem;
+        font-weight: 400;
+      }
+    }
+  }
+}

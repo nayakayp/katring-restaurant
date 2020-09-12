@@ -1,0 +1,111 @@
+<%- include("partials/header-secondary.ejs") %>
+<section class="produk-detail">
+  <div class="produk-container">
+    <div class="img-placeholder">
+      <img src="/images/sate-produk-detail.jpg" alt="" />
+    </div>
+    <div class="produk-content">
+      <h4>Sate Madura</h4>
+      <p class="harga-produk">Rp 25.000</p>
+      <p class="deskripsi">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. <br />Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua.
+      </p>
+      <div class="product-quantity">
+        <button type="button" class="add-quantity">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-dash"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"
+            />
+          </svg>
+        </button>
+        <input type="text" placeholder="0" />
+        <button type="button" class="reduce-quantity">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-plus"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+            />
+          </svg>
+        </button>
+      </div>
+      <button class="btn">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<div class="produk-lain">
+  <section class="home-populer">
+    <h3>MASAKAN LAINNYA</h3>
+    <div class="card-container">
+      <div class="card">
+        <img src="/images/sate-img-min.jpg" alt="" />
+        <div class="card-content">
+          <p class="title">Sate Madura</p>
+          <p class="body">
+            Rasa bumbu sate Madura biasanya memang agak manis. Apalagi rasa
+            manis dari kecap ini berpadu dengan gurihnya kacang yang dihaluskan
+          </p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/images/rendang-img-min.jpg" alt="" />
+        <div class="card-content">
+          <p class="title">Rendang</p>
+          <p class="body">
+            Rendang adalah makanan tradisional Sumatera Barat, tepatnya
+            Minangkabau, yang terbuat dari daging sapi diselimuti racikan bumbu
+            pedas.
+          </p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/images/nasi-tutung-img-min.jpg" alt="" />
+        <div class="card-content">
+          <p class="title">Nasi Tutung Oncom</p>
+          <p class="body">
+            Nasi yang ditumbuk dan dicampur oncom, ditambah dengan lauk pauk
+            yang sesuai dengan selera.
+          </p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<%-include("partials/footer-secondary.ejs") %>

@@ -8,6 +8,12 @@ $font-secondary: "Mulish", sans-serif;
   width: 90%;
   margin: 0 auto;
 }
+h2 {
+  font-family: $font-primary;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
 h3 {
   color: white;
   font-family: $font-secondary;
@@ -18,4 +24,27 @@ h3 {
   border-color: #dd2b37;
   width: 25%;
   margin: 0 auto 2rem auto;
+}
+.product-quantity {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 10rem;
+  border: 1px solid #bbaaad;
+  padding: 0 1rem;
+  button,
+  input {
+    border: none;
+    background: none;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  button {
+    margin: 0 auto;
+  }
+  input {
+    width: 64px;
+    padding: 1rem 0;
+  }
 }

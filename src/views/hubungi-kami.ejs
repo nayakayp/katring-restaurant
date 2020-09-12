@@ -1,0 +1,50 @@
+<%- include("partials/header-primary.ejs") %>
+<section>
+  <div class="form-wrapper">
+    <h2>Hubungi Kami</h2>
+    <p>
+      Ajukan kami pertanyaan tentang perusahaan atau kerja sama dalam bentuk
+      apapun. Dengan senang hati akan kami respon.
+    </p>
+    <form action="/hubungi-kami" method="post">
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control form-control-lg"
+          id="nama"
+          placeholder="Nama Lengkap"
+        />
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <input
+            type="email"
+            class="form-control form-control-lg"
+            id="email"
+            placeholder="E-mail"
+          />
+        </div>
+        <div class="form-group col-md-6">
+          <input
+            type="text"
+            class="form-control form-control-lg"
+            id="perusahaan"
+            placeholder="Nama Perusahaan"
+          />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <textarea
+          class="form-control form-control-lg"
+          id="pesan"
+          rows="10"
+          placeholder="Pesan untuk kami..."
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</section>
+<%-include("partials/footer-primary.ejs") %>

@@ -1,0 +1,109 @@
+@import "./variables";
+
+.cart-wrapper {
+  background: $color-special;
+  min-height: 90vh;
+  .keranjang-container {
+    display: flex;
+    @include widthOptimized();
+    padding: 5rem 0;
+    flex-wrap: wrap;
+    .rincian-pesanan {
+      flex: 1;
+      h1 {
+        font-family: $font-secondary;
+        font-size: 4.6rem;
+        color: white;
+        font-weight: 600;
+      }
+      .product-wrapper {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        background: white;
+        padding: 2rem;
+        border-radius: 5px;
+        .product-info {
+          display: flex;
+          flex: 1 1 30rem;
+          img {
+            width: 20%;
+            margin-right: 1rem;
+          }
+          .product-name {
+            font-size: 2rem;
+            font-weight: 700;
+            color: $color-primary;
+          }
+          .product-price {
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: $color-primary;
+          }
+        }
+        // .product-quantity {
+        //   width: 150px;
+        //   display: flex;
+        //   justify-content: center;
+        //   align-items: center;
+        //   flex: 1 1 10rem;
+        //   border: 1px solid #bbaaad;
+        //   padding: 0 1rem;
+        //   button,
+        //   input {
+        //     border: none;
+        //     background: white;
+        //     text-align: center;
+        //     font-size: 1.8rem;
+        //   }
+        //   button {
+        //     margin: 0 auto;
+        //   }
+        //   input {
+        //     width: 64px;
+        //     padding: 1rem 0;
+        //   }
+        // }
+        .product-total-price {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+      .product-total-price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        p {
+          font-size: 2rem;
+          font-weight: 700;
+          color: white;
+        }
+      }
+    }
+    .data-pesanan {
+      margin-left: 5rem;
+      flex: 1;
+      h1 {
+        font-family: $font-secondary;
+        font-size: 4.6rem;
+        color: white;
+        font-weight: 600;
+      }
+      label {
+        color: white;
+        font-family: $font-primary;
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
+      .btn {
+        background: $color-primary;
+        border-radius: 5px;
+        width: 100%;
+      }
+    }
+  }
+}

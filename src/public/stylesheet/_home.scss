@@ -40,7 +40,6 @@
       }
       .btn {
         background: $color-special;
-        margin-top: 10rem;
       }
     }
   }
@@ -67,7 +66,7 @@
       height: 410px;
       background: #f3ebde;
       img {
-        border-radius: 5px;
+        border-radius: 5px 5px 0 0;
       }
       .card-content {
         padding: 2rem;
@@ -111,7 +110,6 @@
       font-weight: 900;
       color: white;
       text-align: center;
-      padding: 0 10rem;
       span {
         color: #ffa7a7;
       }
@@ -123,7 +121,7 @@
       flex-wrap: wrap;
       margin-top: 5rem;
       .value {
-        width: 250px;
+        width: 200px;
         margin: 0 3rem;
         img {
           margin-bottom: 2rem;
@@ -141,6 +139,7 @@
     }
   }
 }
+
 .home-kategori {
   background: $color-primary;
   padding: 10rem 0;
