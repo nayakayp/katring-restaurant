@@ -8,12 +8,12 @@
         <div class="product-info">
           <img src="/images/nasi-tutung-img-min.jpg" alt="nasi tutung" />
           <div class="info-detail">
-            <p class="product-name">Nasi Tutung</p>
+            <label class="product-name"> Nasi Tutung </label>
             <p class="product-price">Rp 25.000</p>
           </div>
         </div>
         <div class="product-quantity">
-          <button type="button" class="add-quantity">
+          <button type="button" class="reduce-quantity">
             <svg
               width="1em"
               height="1em"
@@ -28,8 +28,97 @@
               />
             </svg>
           </button>
-          <input type="text" placeholder="0" />
+          <input
+            name="product-quantity"
+            type="text"
+            placeholder="0"
+            value="0"
+          />
+          <button type="button" class="add-quantity">
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-plus"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="product-wrapper">
+        <div class="product-info">
+          <img src="/images/nasi-tutung-img-min.jpg" alt="nasi tutung" />
+          <div class="info-detail">
+            <label class="product-name"> Sate Ayam </label>
+            <p class="product-price">Rp 35.000</p>
+          </div>
+        </div>
+        <div class="product-quantity">
           <button type="button" class="reduce-quantity">
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-dash"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"
+              />
+            </svg>
+          </button>
+          <input name="product-quantity" type="text" value="0" />
+          <button type="button" class="add-quantity">
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-plus"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="product-wrapper">
+        <div class="product-info">
+          <img src="/images/nasi-tutung-img-min.jpg" alt="nasi tutung" />
+          <div class="info-detail">
+            <label class="product-name"> Rendang </label>
+            <p class="product-price">Rp 40.000</p>
+          </div>
+        </div>
+        <div class="product-quantity">
+          <button type="button" class="reduce-quantity">
+            <svg
+              width="1em"
+              height="1em"
+              viewBox="0 0 16 16"
+              class="bi bi-dash"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"
+              />
+            </svg>
+          </button>
+          <input name="product-quantity" type="text" value="0" />
+          <button type="button" class="add-quantity">
             <svg
               width="1em"
               height="1em"
@@ -61,6 +150,7 @@
               type="date"
               class="form-control form-control-lg"
               id="tanggal"
+              name="tanggal"
             />
           </div>
           <div class="form-group col-md-6">
@@ -81,11 +171,21 @@
         </div>
         <div class="form-group">
           <label for="nama">Nama Lengkap</label>
-          <input type="text" class="form-control form-control-lg" id="nama" />
+          <input
+            type="text"
+            class="form-control form-control-lg"
+            id="nama"
+            name="nama"
+          />
         </div>
         <div class="form-group">
           <label for="email">Alamat Email</label>
-          <input type="email" class="form-control form-control-lg" id="email" />
+          <input
+            type="email"
+            class="form-control form-control-lg"
+            id="email"
+            name="email"
+          />
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
@@ -94,6 +194,7 @@
               type="text"
               class="form-control form-control-lg"
               id="perusahaan"
+              name="perusahaan"
             />
           </div>
           <div class="form-group col-md-4">
@@ -102,6 +203,7 @@
               type="text"
               id="alamat"
               class="form-control form-control-lg"
+              name="alamat"
             />
           </div>
           <div class="form-group col-md-2">
@@ -110,12 +212,18 @@
               type="text"
               class="form-control form-control-lg"
               id="kode-pos"
+              name="kodepos"
             />
           </div>
         </div>
         <div class="form-group">
           <label for="telp">Nomor Telpon</label>
-          <input type="text" class="form-control form-control-lg" id="nama" />
+          <input
+            type="text"
+            class="form-control form-control-lg"
+            id="nama"
+            name="telpon"
+          />
         </div>
         <button type="submit" class="btn">Proses Order</button>
       </form>
