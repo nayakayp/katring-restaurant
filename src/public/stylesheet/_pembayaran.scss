@@ -1,0 +1,124 @@
+@import "./variables";
+.cart-wrapper {
+  background: $color-special;
+  min-height: 90vh;
+  .keranjang-container {
+    display: flex;
+    @include widthOptimized();
+    padding: 5rem 0;
+    flex-wrap: wrap;
+    .rincian-pesanan {
+      flex: 1;
+      h1 {
+        font-family: $font-secondary;
+        font-size: 4.6rem;
+        color: white;
+        font-weight: 600;
+      }
+      .summary-product-wrapper {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        background: white;
+        padding: 2rem;
+        border-radius: 5px;
+        .summary-product-info {
+          display: flex;
+          img {
+            width: 20%;
+            margin-right: 1rem;
+          }
+          .summary-product-name {
+            font-size: 2rem;
+            font-weight: 700;
+            color: $color-primary;
+          }
+          .summary-product-price {
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: $color-primary;
+          }
+        }
+        .summary-product-quantity {
+          padding: 0 1rem;
+          font-size: 1.8rem;
+        }
+      }
+      .summary-product-total-price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        p {
+          font-size: 2rem;
+          font-weight: 700;
+          color: white;
+        }
+      }
+    }
+    .summary-data-pesanan {
+      margin-left: 5rem;
+      flex: 1;
+      h1 {
+        font-family: $font-secondary;
+        font-size: 4.6rem;
+        color: white;
+        font-weight: 600;
+      }
+      .summary-data-wrapper {
+        margin-top: 2rem;
+        padding: 2rem;
+        border: solid 1px white;
+        border-radius: 5px;
+        .summary-data-info {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-wrap: wrap;
+          .summary-data-contact {
+            font-size: 2rem;
+            font-weight: 700;
+            color: $color-primary;
+            color: white;
+            flex: 1;
+          }
+          .summary-data-email {
+            flex: 3;
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: $color-primary;
+            color: white;
+          }
+
+          .summary-data-ship {
+            flex: 1;
+            font-size: 2rem;
+            font-weight: 700;
+            color: $color-primary;
+            color: white;
+          }
+          .summary-data-address {
+            flex: 3;
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: $color-primary;
+            color: white;
+          }
+        }
+        .line {
+          margin: 1rem 0;
+          width: 100%;
+          height: 1px;
+          background: rgba(255, 255, 255, 0.5);
+        }
+      }
+      .btn {
+        margin-top: 2rem;
+        border-radius: 5px;
+        width: 100%;
+      }
+    }
+  }
+}

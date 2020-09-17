@@ -25,26 +25,3 @@ h3 {
   width: 25%;
   margin: 0 auto 2rem auto;
 }
-.product-quantity {
-  width: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1 1 10rem;
-  border: 1px solid #bbaaad;
-  padding: 0 1rem;
-  button,
-  input {
-    border: none;
-    background: none;
-    text-align: center;
-    font-size: 1.8rem;
-  }
-  button {
-    margin: 0 auto;
-  }
-  input {
-    width: 64px;
-    padding: 1rem 0;
-  }
-}

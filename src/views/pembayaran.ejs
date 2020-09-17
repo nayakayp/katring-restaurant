@@ -1,21 +1,54 @@
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script
-      type="text/javascript"
-      src="https://app.sandbox.midtrans.com/snap/snap.js"
-      data-client-key="SB-Mid-client-ivH7MhZuLGj3vUCi"
-    ></script>
-  </head>
+<head>
+  <script
+    type="text/javascript"
+    src="https://app.sandbox.midtrans.com/snap/snap.js"
+    data-client-key="SB-Mid-client-ivH7MhZuLGj3vUCi"
+  ></script>
+</head>
+<body>
+  <%- include("partials/header-primary.ejs") %>
+  <section class="cart-wrapper">
+    <div class="keranjang-container">
+      <div class="rincian-pesanan">
+        <h1>Ringkasan Pesanan</h1>
+        <div class="summary-product-wrapper">
+          <div class="summary-product-info">
+            <img src="/images/nasi-tutung-img-min.jpg" alt="nasi tutung" />
+            <div class="info-detail">
+              <label class="summary-product-name"> Nasi Tutung </label>
+              <p class="summary-product-price">Rp 25.000</p>
+            </div>
+          </div>
+          <div class="summary-product-quantity">3</div>
+        </div>
+        <div class="summary-product-total-price">
+          <p>TOTAL</p>
+          <p class="summary-price">Rp 200.000</p>
+        </div>
+      </div>
+      <div class="summary-data-pesanan">
+        <h1>Ringkasan Pemesan</h1>
+        <div class="summary-data-wrapper">
+          <div class="summary-data-info">
+            <div class="summary-data-contact">Kontak:</div>
+            <div class="summary-data-email">email@example.com</div>
+          </div>
+          <div class="line"></div>
+          <div class="summary-data-info">
+            <div class="summary-data-ship">Dikirim ke:</div>
+            <div class="summary-data-address">Alamat Tujuan</div>
+          </div>
+        </div>
+        <button id="pay-button" class="btn btn-success">Pay!</button>
+      </div>
+    </div>
+  </section>
+  <%-include("partials/footer-primary.ejs") %>
 
-  <body>
-    <button id="pay-button">Pay!</button>
-    <script type="text/javascript">
-      var payButton = document.getElementById("pay-button");
-      // For example trigger on button clicked, or any time you need
-      payButton.addEventListener("click", function () {
-        snap.pay("<%=token%>"); // Replace it with your transaction token
-      });
-    </script>
-  </body>
-</html>
+  <script type="text/javascript">
+    var payButton = document.getElementById("pay-button");
+    payButton.addEventListener("click", function () {
+      snap.pay("<%=token%>"); // Replace it with your transaction token
+    });
+  </script>
+</body>

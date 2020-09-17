@@ -11,9 +11,9 @@ const app = express();
 // Middleware
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
-// app.set("layout", "layout-secondary", "layout-tertiary");
 app.use(expressLayouts);
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 // Routes
